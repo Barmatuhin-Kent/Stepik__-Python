@@ -1,0 +1,5 @@
+lst = input().split()
+lst.sort(key=int)
+print(*lst, sep=' ',end='\n')
+lst.reverse()
+print(*lst, end=' ')
